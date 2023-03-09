@@ -12,6 +12,7 @@ const SliderRange = () => {
       <Form>
         <Form.Group as={Row}>
           <Col xs="9">
+          <Form.Label>Choose quantity of notes:</Form.Label>
             <RangeSlider
               value={value}
               onChange={e => setValue(e.target.value)}
