@@ -77,8 +77,6 @@ const UserTable = () => {
 		
 	};
 
-	
-
 	const columns = [
 		{ field: "id", headerName: "id", width: 250 },
 		{ field: "fullName", headerName: "fullName", width: 200 },
